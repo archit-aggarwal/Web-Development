@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+ <h1>Register</h1>
+ <form action="http://www.google.com">
+  <p><strong>Name : </strong>
+  <label>First Name *: 
+  	<input type="text" name="First" placeholder="Sachin" required>
+  </label>
+  <label>Middle Name : 
+  	<input type="text" name="Middle" placeholder="Ramesh" >
+  </label>
+  <label>Last Name *: 
+  	<input type="text" name="Last" placeholder="Tendulkar" required>
+  </label></p>
+  <p><strong>Gender *:</strong>    
+  <label>Male : 
+  	<input type="radio" name="Gender" value="Male" required>
+  </label>
+  <label>Female : 
+  	<input type="radio" name="Gender" value="Female" required>
+  </label>
+  <label>Others : 
+  	<input type="radio" name="Gender" value="Other" required>
+  </label></p>
+  <p><label><strong>Email *: </strong> 
+  	<input type="email" placeholder="@gmail.com"required>
+  </label>
+  <label><strong>Password *: </strong>
+  	<input type="password" placeholder="password" minlength="8" maxlength="16">
+  </label></p>
+  <p><label><strong>Month Of Birth : </strong> 
+  	<select value="Month">
+  	 <option disabled hidden selected>Month</option>	
+  	 <option>January</option>
+  	 <option>February</option>
+  	 <option>March</option>
+  	 <option>April</option>
+  	 <option>May</option>
+  	 <option>June</option>
+  	 <option>July</option>
+  	 <option>August</option>
+  	 <option>September</option>
+  	 <option>October</option>
+  	 <option>November</option>
+  	 <option>December</option>
+    </select>
+  </label></p>
+  <label><p>Do you Agree With The Terms & Conditions : 
+  <input type="checkbox" required></p></label>
+  <button>=> Submit <=</button>
+ </form>
+</body>
+</html>

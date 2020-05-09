@@ -1,0 +1,22 @@
+h1{
+	margin-left: 120px;
+}
+table{
+	empty-cells: show;
+	margin-left: 100px;
+}
+td{
+	width: 20px;
+	height: 20px;
+	padding: 20px;
+}
+tr:nth-of-type(2) td
+{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+tr td:nth-of-type(2)
+{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}

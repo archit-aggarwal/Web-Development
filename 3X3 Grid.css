@@ -1,0 +1,12 @@
+img{
+    width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+h1{
+	text-align: center;
+	color: rgb(50,50,50);
+	margin-left: 1.66%;
+	border-bottom: 2px solid rgb(200,200,200);
+	width: 30%;
+}

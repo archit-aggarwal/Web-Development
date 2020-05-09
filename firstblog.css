@@ -1,0 +1,40 @@
+body{
+	font-family: Indie Flower;
+	font-size: 30px;
+	border: 20px solid #bdc3c7;
+	max-width: 700px;
+	width: 80%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	margin: 20px auto;
+}
+p:nth-of-type(1)
+{
+	border-left: 10px solid #bdc3c7;
+	padding-left: 10px;
+}
+h1{
+    font-family: arial;
+    font-size: 30px;
+    text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #3498db;
+}
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
